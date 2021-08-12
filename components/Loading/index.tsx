@@ -7,7 +7,7 @@ export default function LoadingComponent() {
         window.onload = () => {
             setTimeout(() => {
                 $('#MMW_loading').fadeOut(400);
-            }, 1500);
+            }, 500);
         }
     }, [])
 

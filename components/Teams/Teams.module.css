@@ -154,6 +154,64 @@
     opacity: 1;
 }
 
+.team_popup_photo {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .4s;
+    z-index: 2;
+}
+
+.team_popup_photo img {
+    max-width: 100%;
+}
+
+.team_popup_info {
+    font-size: 16px;
+}
+
+.team_popup_name {
+    margin-bottom: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+}
+
+.team_popup_position {
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 1px rgba(255, 255, 255, .1) solid;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+}
+
+.team_popup_social {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.team_popup_social li {
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.team_popup_social li a {
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 32px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    color: #fff !important;
+    background: #6b54b6;
+    transition: all 0.5s;
+}
+
 @media(max-width:1200px) {
     .tq_teams {
         padding: 100px 0 80px 0;

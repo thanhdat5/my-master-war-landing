@@ -1,31 +1,79 @@
 [{
         "name": "Collect",
         "image": "/images/features/f1.jpg",
-        "description": "New monster is born every hour, and bidding lasts for 24 hours."
+        "description": "New monster is born every hour, and bidding lasts for 24 hours.",
+        "albums": [
+            "/images/features/f1.jpg",
+            "/images/features/f2.jpg",
+            "/images/features/f3.jpg",
+            "/images/features/f4.jpg",
+            "/images/features/f5.jpg",
+            "/images/features/f6.jpg"
+        ]
     },
     {
         "name": "BREED",
         "image": "/images/features/f2.jpg",
-        "description": "You can create a new generation of monsters by breeding any two monsters."
+        "description": "You can create a new generation of monsters by breeding any two monsters.",
+        "albums": [
+            "/images/features/f2.jpg",
+            "/images/features/f1.jpg",
+            "/images/features/f3.jpg",
+            "/images/features/f4.jpg",
+            "/images/features/f5.jpg",
+            "/images/features/f6.jpg"
+        ]
     },
     {
         "name": "EVOLVE",
         "image": "/images/features/f3.jpg",
-        "description": "A monster has many stages of evolution depending on the Rarity. Evolution ensures cool new appearance and enhanced stats."
+        "description": "A monster has many stages of evolution depending on the Rarity. Evolution ensures cool new appearance and enhanced stats.",
+        "albums": [
+            "/images/features/f3.jpg",
+            "/images/features/f1.jpg",
+            "/images/features/f2.jpg",
+            "/images/features/f4.jpg",
+            "/images/features/f5.jpg",
+            "/images/features/f6.jpg"
+        ]
     },
     {
         "name": "Season and Events",
         "image": "/images/features/f4.jpg",
-        "description": "Collect and maxout Legendary monster to claim lucrative prizes."
+        "description": "Collect and maxout Legendary monster to claim lucrative prizes.",
+        "albums": [
+            "/images/features/f4.jpg",
+            "/images/features/f1.jpg",
+            "/images/features/f2.jpg",
+            "/images/features/f3.jpg",
+            "/images/features/f5.jpg",
+            "/images/features/f6.jpg"
+        ]
     },
     {
         "name": "Battle",
         "image": "/images/features/f5.jpg",
-        "description": "Unique battle mode in next seasons & Win ultra-rare rewards."
+        "description": "Unique battle mode in next seasons & Win ultra-rare rewards.",
+        "albums": [
+            "/images/features/f5.jpg",
+            "/images/features/f1.jpg",
+            "/images/features/f2.jpg",
+            "/images/features/f3.jpg",
+            "/images/features/f4.jpg",
+            "/images/features/f6.jpg"
+        ]
     },
     {
         "name": "Trading, Ranking & Social Features",
         "image": "/images/features/f6.jpg",
-        "description": "<div>Trade on Market place to boost your collection</div><div>Compete with friends and other players</div><div>Show off your pet army</div><div>Socialise in private chat and world channel</div>"
+        "description": "<div>Trade on Market place to boost your collection</div><div>Compete with friends and other players</div><div>Show off your pet army</div><div>Socialise in private chat and world channel</div>",
+        "albums": [
+            "/images/features/f6.jpg",
+            "/images/features/f1.jpg",
+            "/images/features/f2.jpg",
+            "/images/features/f3.jpg",
+            "/images/features/f4.jpg",
+            "/images/features/f5.jpg"
+        ]
     }
 ]

@@ -4,7 +4,7 @@ export default function BannerComponent() {
   return (
     <div className={styles.tq_banner}>
       <Container>
-        <h1 className={`${styles.tq_banner_header} text-center pt-5 mt-3 wow fadeInUp`} style={{ fontSize: '60px', color: '#dee6ee' }}>
+        <h1 className={`${styles.tq_banner_header} text-center pt-5 mt-3`} style={{ fontSize: '60px', color: '#dee6ee',visibility:'hidden' }}>
           <b>Welcome to My Master War !</b>
         </h1>
         <Row>

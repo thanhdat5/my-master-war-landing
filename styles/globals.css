@@ -275,8 +275,8 @@ a {
     padding: 10px 20px 5px 20px;
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
-    color: #fcfc92;
+    font-size: 40px;
+    color: #fff;
     text-shadow: -1.5px -1.5px 0 #482f05, 1.5px -1.5px 0 #482f05, -1.5px 1.5px 0 #482f05, 1.5px 1.5px 0 #482f05;
     background-image: url(/images/header-top-title-bg.png);
     background-size: auto 100%;
@@ -295,7 +295,7 @@ a {
     background-color: #21144870;
     position: relative;
     min-height: 50vh;
-    color: #fff;
+    color: #d2d2d2;
     font-weight: 500;
     line-height: 1.8;
 }

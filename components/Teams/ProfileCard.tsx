@@ -13,7 +13,7 @@ export default function ProfileCardComponent({ data }: ProfileCardComponentProps
   }
   return (
     <>
-      <a href="#" className={`${styles.tq_team} wow fadeInUp`} onClick={handleShowModal} data-wow-delay="1s">
+      <a href="#" className={`${styles.tq_team} wow fadeInUp`} onClick={handleShowModal} data-wow-delay=".5s">
         <div className={styles.tq_team_inner}>
           <div className={styles.tq_team_avatar}>
             <img src={data?.avatar} alt={data?.fullName} />

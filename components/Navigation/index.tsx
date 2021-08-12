@@ -47,7 +47,7 @@ export default function NavigationComponent() {
               <a href="#contact">
                 <span>CONTACT</span>
               </a>
-              <a href="https://tamquoc.ml" target="_blank" rel="noreferrer" className="tq_btn tq_btn_outline tq_btn_danger nav-link d-lg-flex py-2 px-3" style={{ height: '40px', width: '130px' }}>
+              <a href="https://beta-play.mymasterwar.com/" target="_blank" rel="noreferrer" className="tq_btn tq_btn_outline tq_btn_danger nav-link d-lg-flex py-2 px-3" style={{ height: '40px', width: '130px' }}>
                 <span className="tq_btn_text no-after">PLAY NOW!</span>
                 <div className="tq_btn_hover"></div>
               </a>

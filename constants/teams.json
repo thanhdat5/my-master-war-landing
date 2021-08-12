@@ -1,25 +1,29 @@
 [{
         "fullName": "Tri Nguyen",
-        "jobTitle": "Co-Founder",
+        "jobTitle": "Co-Founder/ CEO",
         "avatar": "https://mydefipet.com/_nuxt/img/Team8.dde2369.png",
-        "linkedin": "https://www.linkedin.com/in/nguyenthetri/"
+        "linkedin": "https://www.linkedin.com/in/nguyenthetri/",
+        "description": "<p>5 years of work experience in Mobile VAS, Gaming and Music industry with leadership and management skills.</p><p>7 Years’ experience as hands on software engineer in Japan environment (Mobile, Mobile application, Enterprise Application, E-Commerce).</p>"
     },
     {
         "fullName": "Quan Tran",
-        "jobTitle": "CTO",
+        "jobTitle": "CTO Blockchain",
         "avatar": "https://mydefipet.com/_nuxt/img/Team8.dde2369.png",
-        "linkedin": "https://github.com/quanttb"
+        "linkedin": "https://www.linkedin.com/in/quan-thien-bao-tran-08401a124/",
+        "description": "<p>Lead the engineering team and be responsible for technical strategy and engineering operations.</p><p>Master of computer science, Hanoi University of Technology, extensive experience in technical development and blockchain technology, NFT.</p><p>Fundamentals of Google Cloud Big Data and Machine Learning Certification</p>"
     },
     {
         "fullName": "Van Vo",
         "jobTitle": "Chief Gaming Officer",
         "avatar": "https://mydefipet.com/_nuxt/img/Team8.dde2369.png",
-        "linkedin": "#"
+        "linkedin": "#",
+        "description": "<p>Leader team Building and developing an online game server system in the Philippine market</p><p>Used to develop a system of online folk games such as chess, face-down chess, checkers, and portals including 20 online folk games.</p><p>Game products have reached the top 1 trending on google play</p><p><a href='https://play.google.com/store/apps/developer?id=VOZGA' target='_blank'><small>https://play.google.com/store/apps/developer?id=VOZGA</small></a><br/><a href='https://apps.apple.com/vn/developer/techplus-jsc/id495958001' target='_blank'><small>https://apps.apple.com/vn/developer/techplus-jsc/id495958001</small></a></p>"
     },
     {
         "fullName": "Thanh Nguyen",
         "jobTitle": "Product Lead",
         "avatar": "https://mydefipet.com/_nuxt/img/Team8.dde2369.png",
-        "linkedin": "#"
+        "linkedin": "#",
+        "description": "<p>Project leader of mobile game products under BP Casual -soha game Vccoprt</p><p>Head of construction, sales of VAS services on games of TT media Viettel telecom</p><p>Scenario design manager for Game projects under Inet Corporation</p>"
     }
 ]

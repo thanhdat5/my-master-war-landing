@@ -9,7 +9,7 @@ export default function GameComponent() {
           <Row className="align-items-center">
             <Col lg="6" className="text-center mb-5 mb-lg-0 mb-xl-0">
               <img alt="welcome" className="wow slideInLeft" src="/images/welcome.png" style={{ maxWidth: '100%' }} />
-              <a href="#" className="tq_btn tq_btn_outline tq_btn_outline_primary wow fadeInUp" style={{ marginTop: '-30px' }}>
+              <a href="https://beta-play.mymasterwar.com/" target="_blank" rel="noreferrer" className="tq_btn tq_btn_outline tq_btn_outline_primary wow fadeInUp" style={{ marginTop: '-30px' }}>
                 <span className="tq_btn_text">Play Now</span>
                 <div className="tq_btn_hover"></div>
               </a>

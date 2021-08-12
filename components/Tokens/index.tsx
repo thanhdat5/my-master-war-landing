@@ -19,7 +19,7 @@ export default function TokensComponent() {
       borderColor: canvas_border_color,
       borderWidth: 2,
       hoverBorderColor: canvas_border_color,
-      data: [40, 15, 10, 10, 4, 10, 10, 1],
+      data: [40, 15, 10, 10, 4, 10, 8, 3],
       animationDuration: 400,
     }]
   };
@@ -147,8 +147,8 @@ export default function TokensComponent() {
                     <div className={styles.chart_data_item}>
                       <span className={styles.chart_label}>Private sale</span>
                       <span className={styles.chart_info}>
-                        <span className={styles.chart_percent}>10% </span>
-                        <span className={styles.chart_sublabel}>(10,000,000 token)</span>
+                        <span className={styles.chart_percent}>8% </span>
+                        <span className={styles.chart_sublabel}>(8,000,000 token)</span>
                       </span>
                     </div>
                   </li>
@@ -156,8 +156,8 @@ export default function TokensComponent() {
                     <div className={styles.chart_data_item}>
                       <span className={styles.chart_label}>Public IDO</span>
                       <span className={styles.chart_info}>
-                        <span className={styles.chart_percent}>1% </span>
-                        <span className={styles.chart_sublabel}>(1,000,000 token)</span>
+                        <span className={styles.chart_percent}>3% </span>
+                        <span className={styles.chart_sublabel}>(3,000,000 token)</span>
                       </span>
                     </div>
                   </li>

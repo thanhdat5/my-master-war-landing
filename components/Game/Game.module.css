@@ -67,6 +67,7 @@
     padding: 28px;
     transition: .3s cubic-bezier(.21, .04, 0, 1.07);
     position: relative;
+    cursor: pointer;
 }
 
 .tg_feature_item::before,

@@ -14,14 +14,14 @@ export function RoadMapComponent() {
                     <ul className={`${styles.tq_road_map_data} wow slideInRight`}>
                         <li className={styles.tq_road_map_data_active}>
                             <span>Q1, Q2 2021</span>
-                            <ul className="wow fadeInUp" data-wow-delay="1s">
+                            <ul className="wow fadeInUp" data-wow-delay="0.1s">
                                 <li>Verify ideals, start designing and building the My Master War games</li>
                                 <li>Connect with advisors and prepare for official plans</li>
                             </ul>
                         </li>
                         <li className={styles.tq_road_map_data_active}>
                             <span>Q3 2021</span>
-                            <ul className="wow fadeInUp" data-wow-delay="1.2s">
+                            <ul className="wow fadeInUp" data-wow-delay="0.2s">
                                 <li>Complete coding the game</li>
                                 <li>
                                     <div>Apply blockchain technologies into the game</div>
@@ -38,7 +38,7 @@ export function RoadMapComponent() {
                         </li>
                         <li className={styles.tq_road_map_data_start}>
                             <span>Q4 2021</span>
-                            <ul className="wow fadeInUp" data-wow-delay="1.4s">
+                            <ul className="wow fadeInUp" data-wow-delay="0.4s">
                                 <li>
                                     <div>Improve the game</div>
                                     <ul>
@@ -52,7 +52,7 @@ export function RoadMapComponent() {
                         </li>
                         <li>
                             <span>From 2022</span>
-                            <ul className="wow fadeInUp" data-wow-delay="1.6s">
+                            <ul className="wow fadeInUp" data-wow-delay="0.6s">
                                 <li>Community development</li>
                                 <li>Business  expansion</li>
                                 <li>Operating and exploiting</li>

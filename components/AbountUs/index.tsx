@@ -13,8 +13,8 @@ export default function AboutUsComponent() {
               </div>
             </div>
             <div className={styles.tq_about_us_body}>
-              <p className="wow fadeInUp">The Three Kingdoms game is a quite famous game in the world, especially in China and Asian countries. The game based on the historical story of China has attracted hundreds of thousands of players of different ages over a decade.</p>
-              <p className="wow fadeInUp">The Three Kingdoms NFT game  is just  like traditional games. The difference is that blockchain technology is applied to the game along with the &quot;play to earn&quot; model. Players can enjoy  the game while still being able to make a profit from it.</p>
+              <p className="wow fadeInUp">My Master War game is a quite famous game in the world, especially in China and Asian countries. The game based on the historical story of China has attracted hundreds of thousands of players of different ages over a decade.</p>
+              <p className="wow fadeInUp">My Master War NFT game  is just  like traditional games. The difference is that blockchain technology is applied to the game along with the &quot;play to earn&quot; model. Players can enjoy  the game while still being able to make a profit from it.</p>
             </div>
             <div className="d-flex align-items-center justify-content-center justify-content-md-start mt-5 flex-wrap">
               <a href="#" className="tq_btn tq_btn_outline tq_btn_outline_primary wow fadeInUp">

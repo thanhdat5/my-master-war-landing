@@ -7,7 +7,7 @@ export function RoadMapComponent() {
                 <div className={styles.tq_road_map_title}>
                     <h1 className="wow fadeInUp">ROADMAP</h1>
                     <p className="fs-18 mb-0 wow fadeInUp">
-                        Three Kingdom Game is developing a global data-driven platform for the world.<br />Powered by blockchain and smart contracts.
+                        My Master War is developing a global data-driven platform for the world.<br />Powered by blockchain and smart contracts.
                     </p>
                 </div>
                 <div className={styles.tq_road_map_body}>
@@ -15,7 +15,7 @@ export function RoadMapComponent() {
                         <li className={styles.tq_road_map_data_active}>
                             <span>Q1, Q2 2021</span>
                             <ul className="wow fadeInUp" data-wow-delay="1s">
-                                <li>Verify ideals, start designing and building the Three Kingdoms games</li>
+                                <li>Verify ideals, start designing and building the My Master War games</li>
                                 <li>Connect with advisors and prepare for official plans</li>
                             </ul>
                         </li>
@@ -52,11 +52,11 @@ export function RoadMapComponent() {
                         </li>
                         <li>
                             <span>From 2022</span>
-                           <ul className="wow fadeInUp" data-wow-delay="1.6s">
-                               <li>Community development</li>
-                               <li>Business  expansion</li>
-                               <li>Operating and exploiting</li>
-                           </ul>
+                            <ul className="wow fadeInUp" data-wow-delay="1.6s">
+                                <li>Community development</li>
+                                <li>Business  expansion</li>
+                                <li>Operating and exploiting</li>
+                            </ul>
                         </li>
                     </ul>
                 </div>

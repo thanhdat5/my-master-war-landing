@@ -1,0 +1,25 @@
+[{
+        "fullName": "Tri Nguyen",
+        "jobTitle": "Co-Founder",
+        "avatar": "https://mydefipet.com/_nuxt/img/Team8.dde2369.png",
+        "linkedin": "https://www.linkedin.com/in/nguyenthetri/"
+    },
+    {
+        "fullName": "Quan Tran",
+        "jobTitle": "CTO",
+        "avatar": "https://mydefipet.com/_nuxt/img/Team8.dde2369.png",
+        "linkedin": "https://github.com/quanttb"
+    },
+    {
+        "fullName": "Van Vo",
+        "jobTitle": "Chief Gaming Officer",
+        "avatar": "https://mydefipet.com/_nuxt/img/Team8.dde2369.png",
+        "linkedin": "#"
+    },
+    {
+        "fullName": "Thanh Nguyen",
+        "jobTitle": "Product Lead",
+        "avatar": "https://mydefipet.com/_nuxt/img/Team8.dde2369.png",
+        "linkedin": "#"
+    }
+]

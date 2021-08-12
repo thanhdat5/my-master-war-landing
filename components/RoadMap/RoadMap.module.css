@@ -166,8 +166,20 @@
     }
 }
 
+@media(max-width:1024px) {
+    .tq_road_map_title h1 {
+        font-size: 58px;
+    }
+}
+
 @media(max-width:992px) {
     .tq_road_map {
         padding: 50px 0;
+    }
+}
+
+@media(max-width:767px) {
+    .tq_road_map_title h1 {
+        font-size: 42px;
     }
 }

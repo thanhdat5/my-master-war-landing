@@ -9,6 +9,7 @@ interface ProfileModalProps {
 export default function ProfileModal({ showModal, data, onDismiss }: ProfileModalProps) {
     return <Modal size="lg" centered={true} className="tq_modal" show={showModal} onHide={onDismiss}>
         <Modal.Header closeButton>
+            <div className="w-100">Profile</div>
         </Modal.Header>
         <Modal.Body>
             {/* <img src="/images/help.png" alt="" /> */}

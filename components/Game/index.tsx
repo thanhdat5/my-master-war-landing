@@ -8,7 +8,7 @@ export default function GameComponent() {
         <div className={styles.tq_game_inner}>
           <Row className="align-items-center">
             <Col lg="6" className="text-center mb-5 mb-lg-0 mb-xl-0">
-              <img alt="welcome" className="wow slideInLeft" src="/images/welcome.png" style={{ maxWidth: '100%' }} />
+              <img alt="welcome" className="wow fadeInUp" src="/images/welcome.png" style={{ maxWidth: '100%' }} />
               <a href="https://beta-play.mymasterwar.com/" target="_blank" rel="noreferrer" className="tq_btn tq_btn_outline tq_btn_outline_primary wow fadeInUp" style={{ marginTop: '-30px' }}>
                 <span className="tq_btn_text">Play Now</span>
                 <div className="tq_btn_hover"></div>
@@ -16,8 +16,8 @@ export default function GameComponent() {
             </Col>
             <Col lg="6">
               <div className={styles.tq_game_title}>
-                <h1 className="wow slideInRight">My Master War<br />NFT GAME</h1>
-                <div className={`${styles.tq_game_sub_title} wow slideInUp`}>
+                <h1 className="wow fadeInUp">My Master War<br />NFT GAME</h1>
+                <div className={`${styles.tq_game_sub_title} wow fadeIn`}>
                   <span>#</span>MMW NFTGANME
                 </div>
               </div>

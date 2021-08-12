@@ -63,7 +63,7 @@
 
 .tq_faqs_accordion_item button,
 .tq_faqs_accordion_item button::before {
-    background-color: #21144880 !important;
+    background-color: #36256b80 !important;
 }
 
 .tq_faqs_accordion_item button[aria-expanded="true"] {

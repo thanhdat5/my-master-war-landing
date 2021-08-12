@@ -13,7 +13,9 @@ const WOW = !isServer ? require('wow.js') : null
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    new WOW().init();
+    new WOW().init({
+      mobile: false
+    });
   }, [])
 
   return <>

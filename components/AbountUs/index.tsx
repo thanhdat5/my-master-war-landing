@@ -7,8 +7,8 @@ export default function AboutUsComponent() {
         <Row className="align-items-center">
           <Col xl="6" lg="7">
             <div className={styles.tq_about_us_title}>
-              <h1 className="wow slideInLeft">About<br />My Master War</h1>
-              <div className={`${styles.tq_about_us_sub_title} wow slideInUp`} >
+              <h1 className="wow fadeInUp">About<br />My Master War</h1>
+              <div className={`${styles.tq_about_us_sub_title} wow fadeIn`}>
                 <span>#</span>MyMasterWar
               </div>
             </div>
@@ -28,7 +28,7 @@ export default function AboutUsComponent() {
             </div>
           </Col>
           <Col xl="6" lg="5" className="text-center">
-            <img className="d-none d-lg-block mx-auto wow slideInRight" src="/images/help.png" alt="" style={{ maxWidth: '100%' }} />
+            <img className="d-none d-lg-block mx-auto wow fadeInUp" src="/images/help.png" alt="" style={{ maxWidth: '100%' }} />
           </Col>
         </Row>
       </Container>

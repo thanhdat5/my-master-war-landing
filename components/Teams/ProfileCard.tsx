@@ -19,7 +19,7 @@ export default function ProfileCardComponent({ data }: ProfileCardComponentProps
             <img src={data?.avatar} alt={data?.fullName} />
           </div>
           <div className={styles.tq_team_name}>{data?.fullName}</div>
-          <div className={styles.tq_team_title}>{data?.fullName}</div>
+          <div className={styles.tq_team_title}>{data?.jobTitle}</div>
         </div>
       </a>
       <ProfileModal showModal={showModal} onDismiss={() => setShowModal(false)} data={data} />

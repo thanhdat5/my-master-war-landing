@@ -5,8 +5,8 @@ import { Pie, Doughnut } from 'react-chartjs-2';
 import $ from 'jquery';
 
 export default function TokensComponent() {
-  const canvas_border_color = '#180d1e';
-  const pie_color = '#251444';
+  const canvas_border_color = '#231a37';
+  const pie_color = '#36256b';
   const pie_hover_color = '#ff3549';
   const data_set = {
     labels: ['Ecosystem', 'Reward', 'Dev Team', 'Founder Team', 'Advisors', 'Marketing', 'Private sale', 'Public IDO'],
@@ -73,8 +73,8 @@ export default function TokensComponent() {
       <Container>
         <div className={styles.tq_tokens_inner}>
           <div className={styles.tq_tokens_title}>
-            <h1 className="wow slideInLeft">Token<br />Economics</h1>
-            <div className={`${styles.tq_tokens_sub_title} wow slideInUp`}>
+            <h1 className="wow fadeInUp">Token<br />Economics</h1>
+            <div className={`${styles.tq_tokens_sub_title} wow fadeIn`}>
               <span>#</span>token Economics
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function TokensComponent() {
                 </div>
               </Col>
               <Col xl="4" lg="6">
-                <ul className={`${styles.chart_data} row wow slideInLeft`} id="tq-chart-legends">
+                <ul className={`${styles.chart_data} row wow fadeInUp`} id="tq-chart-legends">
                   <li className="col-sm-6">
                     <div className={styles.chart_data_item}>
                       <span className={styles.chart_label}>Ecosystem</span>
@@ -164,7 +164,7 @@ export default function TokensComponent() {
                 </ul>
               </Col>
               <Col xl="3" className="order-last mt-5 mt-xl-0">
-                <Row className="wow slideInRight">
+                <Row className="wow fadeInUp">
                   <Col xl="12" lg="6" md="6">
                     <div className={styles.token_info_item}>
                       <div className={styles.token_info_title}>Token Name</div>

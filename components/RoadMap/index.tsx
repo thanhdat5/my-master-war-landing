@@ -11,7 +11,7 @@ export function RoadMapComponent() {
                     </p>
                 </div>
                 <div className={styles.tq_road_map_body}>
-                    <ul className={`${styles.tq_road_map_data} wow slideInRight`}>
+                    <ul className={`${styles.tq_road_map_data} wow fadeInUp`}>
                         <li className={styles.tq_road_map_data_active}>
                             <span>Q1, Q2 2021</span>
                             <ul className="wow fadeInUp" data-wow-delay="0.1s">

@@ -63,7 +63,7 @@
     top: 0;
     height: 100%;
     width: 45px;
-    border: 2px solid #251444;
+    border: 2px solid #36256b;
     transition: all .4s;
 }
 
@@ -136,7 +136,7 @@
     width: 5px;
     content: '';
     border-radius: 2px;
-    background: #251444;
+    background: #36256b;
     transition: all ease-in-out .3s;
 }
 

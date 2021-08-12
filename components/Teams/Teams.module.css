@@ -62,7 +62,7 @@
     top: 0;
     height: 100%;
     width: 45px;
-    border: 2px solid #251444;
+    border: 2px solid #36256b;
     transition: all .4s;
 }
 
@@ -116,7 +116,7 @@
 }
 
 .tq_team_title {
-    color: #6b54b6;
+    color: #a189ee;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.43em;

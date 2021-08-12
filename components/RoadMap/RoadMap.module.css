@@ -76,7 +76,7 @@
     left: 4px;
     top: 10px;
     border: 2px #d4d4d4 solid;
-    background-color: #370e63;
+    background-color: #36256b;
     z-index: 2;
     border-radius: 50%;
 }
@@ -86,7 +86,7 @@
     width: 4px;
     left: 10px;
     top: 15px;
-    background-color: #370e63;
+    background-color: #36256b;
     z-index: 1;
 }
 

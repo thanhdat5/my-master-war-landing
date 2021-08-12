@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>My Master War - MAT NFT Market</title>
+    <meta name="author" content="SamuraiLab" />
+    <meta name="og:title" property="og:title" content="NFT For Three Kingdoms Game" />
+    <meta name="twitter:card" content="NFT For Three Kingdoms Game" />
+    <meta property="og:image" content="images/preview.png" />
+    <link rel="apple-touch-icon" href="images/logo.png" />
+    <meta name="description" content="" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css?v=1.0.2" />
+    <link rel="stylesheet" href="css/dashboard.css?v=1.0.2" />
+</head>
+
+<body>
+    <div class="tkg-loading">
+        <div class="tkg-loading-wrap">
+            <div class="tkg-loading-percent"></div>
+            <div class="tkg-loading-text">Please wait...</div>
+        </div>
+    </div>
+
+    <!-- <div class="tkg-welcome d-flex flex-column align-items-center justify-content-center">
+        <img class="tkg-welcome-img" alt="Welcome" src="images/welcome.png" />
+        <div class="tkg-welcome-actions">
+            <button type="button" class="tkg-button">Connect wallet</button>
+        </div>
+    </div> -->
+
+    <nav class="tkg-navbar navbar navbar-expand-md navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="tkg-brand navbar-brand" href="index.html">
+                <img class="tkg-logo" src="images/logo.png" alt="MyMasterWar" />
+            </a>
+            <button class="tkg-navbar-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <div class="tkg-navbar-collapse collapse navbar-collapse align-items-end" id="navbarSupportedContent">
+                <ul class="tkg-navbar-nav navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            <img src="images/icon-dashboard.png" alt="Dashboard" />
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="market.html">
+                            <img src="images/icon-marketplace.png" alt="Marketplace" />
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#helpModal">
+                            <img src="images/icon-help.png" alt="Help" />
+                        </a>
+                    </li>
+                </ul>
+                <ul class="tkg-navbar-nav-auth tkg-navbar-nav navbar-nav ms-auto mb-0 align justify-content-md-end justify-content-between">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <img src="images/icon-login.png" alt="Login" />
+                        </a>
+                    </li> -->
+                    <li class="nav-item">
+                        <div class="tkg-balance">
+                            <img src="images/icon-mat-sold.png" alt="MAT" />
+                            <span>1,000,000 MAT</span>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tkg-account" href="#">
+                            <img src="images/account-bg.png" alt="Account" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="tkg-main">
+        <!--  -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-2 d-none d-xl-block">
+                    <div class="tkg-dashboard-welcome-flag">
+                        <img src="images/welcome-flag.png" alt="Welcome" />
+                        <div class="tkg-dashboard-welcome-text">
+                            <span>Chào</span>
+                            <span>Mừng</span>
+                            <span>Bạn</span>
+                            <span>Đến</span>
+                            <span>Với</span>
+                            <span>MMW</span>
+                            <span>!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-10">
+                    <div class="dashboard-card dashboard-main-card mb-md-2 mb-1 pt-lg-5">
+                        <div class="dashboard-card-title d-block d-lg-none">
+                            <img src="images/text-tong-quan.png" alt="TỔNG QUAN" />
+                        </div>
+                        <div class="dashboard-card-body">
+                            <div class="dashboard-card-tabs">
+                                <ul>
+                                    <li class="active"><a href="#">Last 24h</a></li>
+                                    <li><a href="#">7 days</a></li>
+                                    <li><a href="#">30 days</a></li>
+                                </ul>
+                            </div>
+                            <div class="dashboard-card-tab-content">
+                                <div class="row">
+                                    <div class="col-xl-3 col-lg-3 col-md-5 col-6 pe-0">
+                                        <div class="dashboard-card-statistics mb-lg-0 mb-4">
+                                            <div class="dashboard-card-statistics-title">
+                                                <span>Total Sale</span>
+                                            </div>
+                                            <div class="dashboard-card-statistics-value">
+                                                <img src="images/icon-total-sale.png" alt="" />
+                                                <strong>46,512</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-3 col-md-7 col-6 pe-0">
+                                        <div class="dashboard-card-statistics mb-lg-0 mb-4">
+                                            <div class="dashboard-card-statistics-title">
+                                                <span>Total Volume</span>
+                                            </div>
+                                            <div class="dashboard-card-statistics-value">
+                                                <img src="images/icon-total-volume.png" alt="" />
+                                                <strong>8,784.7</strong>
+                                                <span>$27,483,823.08</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-md-5 col-6 pe-0">
+                                        <div class="dashboard-card-statistics mb-0">
+                                            <div class="dashboard-card-statistics-title">
+                                                <span>MAT Sold</span>
+                                            </div>
+                                            <div class="dashboard-card-statistics-value">
+                                                <img src="images/icon-mat-sold.png" alt="" />
+                                                <strong>46,401</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-3 col-md-7 col-6 pe-0">
+                                        <div class="dashboard-card-statistics mb-0">
+                                            <div class="dashboard-card-statistics-title">
+                                                <span>New items</span>
+                                            </div>
+                                            <div class="dashboard-card-statistics-value">
+                                                <img src="images/icon-new-items.png" alt="" />
+                                                <strong>123</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="dashboard-card mb-md-3 mb-1">
+                                <div class="dashboard-card-title">
+                                    <img src="images/text-recent-listed.png" alt="RECENTLY LISTED" />
+                                </div>
+                                <div class="dashboard-card-body" style="min-height: 320px;">
+                                    <div class="dashboard-card-tabs dashboard-card-tabs-space-2">
+                                        <ul>
+                                            <li class="active"><a href="#">Tướng</a></li>
+                                            <li><a href="#">Trang bị</a></li>
+                                            <!-- <li><a href="#">Mảnh vỡ</a></li>
+                                            <li><a href="#">Kho báu</a></li>
+                                            <li><a href="#">Đạo cụ</a></li> -->
+                                        </ul>
+                                    </div>
+                                    <div class="dashboard-card-tab-content">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-1.png);">
+                                                            <img src="images/tuong/a-3.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-1.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-1.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Creator</small>
+                                                                <span>ManuuCastro12</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-2.png);">
+                                                            <img src="images/tuong/a-3.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-3.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-2.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Creator</small>
+                                                                <span>ManuuCastro12</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-3.png);">
+                                                            <img src="images/tuong/a-3.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-3.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-3.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Creator</small>
+                                                                <span>ManuuCastro12</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-4.png);">
+                                                            <img src="images/tuong/a-3.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-4.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-4.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Creator</small>
+                                                                <span>ManuuCastro12</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-5.png);">
+                                                            <img src="images/tuong/a-1.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-5.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-5.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Creator</small>
+                                                                <span>ManuuCastro12</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-1.png);">
+                                                            <img src="images/tuong/a-3.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-1.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-1.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Creator</small>
+                                                                <span>ManuuCastro12</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-5.png);">
+                                                            <img src="images/tuong/a-1.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-5.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-5.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Creator</small>
+                                                                <span>ManuuCastro12</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-1.png);">
+                                                            <img src="images/tuong/a-3.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-1.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-1.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Creator</small>
+                                                                <span>ManuuCastro12</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="dashboard-card mb-md-3 mb-1">
+                                <div class="dashboard-card-title">
+                                    <img src="images/text-recent-sold.png" alt="RECENTLY SOLD" />
+                                </div>
+                                <div class="dashboard-card-body" style="min-height: 320px;">
+                                    <div class="dashboard-card-tabs dashboard-card-tabs-space-2">
+                                        <ul>
+                                            <li class="active"><a href="#">Tướng</a></li>
+                                            <li><a href="#">Trang bị</a></li>
+                                            <!-- <li><a href="#">Mảnh vỡ</a></li>
+                                            <li><a href="#">Kho báu</a></li>
+                                            <li><a href="#">Đạo cụ</a></li> -->
+                                        </ul>
+                                    </div>
+                                    <div class="dashboard-card-tab-content">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-1.png);">
+                                                            <img src="images/tuong/a-3.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-1.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-1.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Seller</small>
+                                                                <span>Kenn Estabillo</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-2.png);">
+                                                            <img src="images/tuong/a-3.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-3.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-2.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Seller</small>
+                                                                <span>Kenn Estabillo</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-3.png);">
+                                                            <img src="images/tuong/a-3.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-3.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-3.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Seller</small>
+                                                                <span>Kenn Estabillo</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-4.png);">
+                                                            <img src="images/tuong/a-3.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-4.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-4.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Seller</small>
+                                                                <span>Kenn Estabillo</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-5.png);">
+                                                            <img src="images/tuong/a-1.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-5.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-5.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Seller</small>
+                                                                <span>Kenn Estabillo</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="recently-item">
+                                                    <div class="d-flex">
+                                                        <div class="recently-item-avatar" style="background-image: url(images/tuong/bg-1.png);">
+                                                            <img src="images/tuong/a-3.png" alt="##" />
+                                                        </div>
+                                                        <div class="recently-item-wrap">
+                                                            <div class="recently-item-info">
+                                                                <img class="recently-item-icon" src="images/tuong/t-1.png" alt="##" />
+                                                                <div class="recently-item-name" style="background-image: url(images/tuong/n-1.png);">
+                                                                    <strong>Chu Thái</strong>
+                                                                </div>
+                                                            </div>
+                                                            <div class="recently-item-more">
+                                                                <small>Seller</small>
+                                                                <span>Kenn Estabillo</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently-item-price">
+                                                        <div class="recently-item-id">
+                                                            <span>#894173</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center justify-content-between flex-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <img class="me-1" src="images/cur.png" alt="MAT" height="9" />
+                                                                <div class="recently-item-price-value">
+                                                                    <b>0.2088</b>
+                                                                </div>
+                                                            </div>
+                                                            <small class="recently-item-time">a minute ago</small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="helpModal" tabindex="-1" aria-labelledby="helpModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="images/text-tro-giup.png" alt="" />
+                </div>
+                <div class="modal-body">
+                    <img src="images/help.png" alt="" />
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto dolor nisi corporis nemo optio quasi tenetur? Alias labore quas ullam eaque perspiciatis dolore quia earum ipsum. Similique, adipisci architecto.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script>
+        window.onload = () => {
+            window.setTimeout(() => {
+                $('.tkg-loading').fadeOut(400);
+            }, 2600)
+        }
+    </script>
+</body>
+
+</html>

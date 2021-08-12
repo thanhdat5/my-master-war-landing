@@ -8,9 +8,9 @@ export default function FooterTopComponent() {
                 <Container>
                     <Row className="align-items-center">
                         <Col xl="3" className="text-center text-xl-start">
-                            <Link href="#">
+                            <a href="#">
                                 <img alt="Logo" src="/images/logo.png" />
-                            </Link>
+                            </a>
                         </Col>
                         <Col xl="6" className="text-center mt-3 mt-xl-0">
                             <Nav className={styles.tg_footer_top_nav}>

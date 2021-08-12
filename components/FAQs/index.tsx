@@ -36,7 +36,7 @@ export default function FAQsComponent() {
                             <li>Buying game items: such as weapons, equipments</li>
                             <li>Upgrade levels: such as VIP-01, VIP-02,...</li>
                             <li>Game rewards: players will receive rewards when they win a battle, conquer the stronghold,...</li>
-                            <li>Referral system: When players refer friends to play the game, they will receive an amount of MAT tokens proportional to the referral's trading volume.</li>
+                            <li>Referral system: When players refer friends to play the game, they will receive an amount of MAT tokens proportional to the referral&apos;s trading volume.</li>
                             <li>Staking: Players can stake their MAT token in the game system to receive rewards.</li>
                             <li>Exchange on centralized/decentralized exchanges</li>
                           </ul>

@@ -27,7 +27,7 @@ export default function PartnersComponent() {
               {
                 PARTNERS.map((item, idx) => {
                   return <Col key={idx} xl="2" lg="3" md="4" xs="6" className="wow fadeInUp" data-wow-delay={`${idx / 5}s`}>
-                    <a href={item?.link} target="_blank" className={styles.tq_partner} title={item?.name}>
+                    <a rel="noreferrer" href={item?.link} target="_blank" className={styles.tq_partner} title={item?.name}>
                       <img className="w-100" src={item?.logo} alt={item?.name} />
                     </a>
                   </Col>

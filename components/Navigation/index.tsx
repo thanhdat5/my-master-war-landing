@@ -31,7 +31,7 @@ export default function NavigationComponent() {
               </a>
             </Scrollspy>
             <Navbar.Brand className={`me-0 d-lg-block d-none ${styles.tq_mx_1400}`} href="#">
-              <img src="/images/logo.png" />
+              <img src="/images/logo.png" alt="Logo" />
             </Navbar.Brand>
             <Scrollspy
               className={`${styles.tq_navigation_navbar_nav} navbar-nav justify-content-lg-between align-items-lg-center align-items-end`} style={{ flex: 1 }}

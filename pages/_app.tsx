@@ -6,17 +6,21 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import { useEffect } from 'react'
+import LoadingComponent from '../components/Loading'
+
 const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wow.js') : null
 
 function MyApp({ Component, pageProps }: AppProps) {
-  useEffect(()=>{
-    new WOW().init()
-  },[])
+  useEffect(() => {
+    new WOW().init();
+  }, [])
+
   return <>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
+    <LoadingComponent />
     <Component {...pageProps} />
   </>
 }

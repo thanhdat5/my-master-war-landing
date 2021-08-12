@@ -1,0 +1,14 @@
+.tq_loading {
+    background-color: #1D0E23;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    user-select: none;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

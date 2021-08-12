@@ -1,1 +1,18 @@
-.tq_banner {}
+@media(max-width:992px) {
+    .tq_banner_header {
+        padding-top: 0 !important;
+        margin-top: 30px !important;
+        font-size: 40px !important;
+    }
+    .tq_banner img {
+        margin-top: -50px !important;
+        margin-left: 80px;
+    }
+}
+
+@media(max-width:576px) {
+    .tq_banner img {
+        margin-top: -90px !important;
+        margin-left: -30px;
+    }
+}

@@ -210,3 +210,9 @@
         opacity: 1;
     }
 }
+
+@media(max-width:576px) {
+    .mouse_scroll {
+        bottom: -10px;
+    }
+}

@@ -1,6 +1,0 @@
-{
-  "tronMainnet": "https://api.trongrid.io",
-  "tronTestnet": "https://api.nileex.io",
-  "tronLocalhost": "http://127.0.0.1"
-}
-

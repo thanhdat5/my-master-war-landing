@@ -103,11 +103,20 @@
 
 .active .chart_data_item:before,
 .active .chart_data_item:after {
-    border-color: #ff3549;
+    border-color: #ff3549 !important;
 }
 
 .active .chart_label {
-    color: #ff3549;
+    color: #ff3549 !important;
+}
+
+.chart_data_item:hover:before,
+.chart_data_item:hover:after {
+    border-color: #ff3549 !important;
+}
+
+.chart_data_item:hover .chart_label {
+    color: #ff3549 !important;
 }
 
 

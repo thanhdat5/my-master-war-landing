@@ -84,7 +84,7 @@ export default function TokensComponent() {
             <Row className="align-items-center">
               <Col xl="5" lg="6" className="px-xl-5 order-xl-1 mb-5 mb-xl-0">
                 <div className="pe-lg-5 wow fadeInUp">
-                  <Doughnut options={options_set} data={data_set} width={400} height={400} />
+                  <Doughnut onMouseLeave={()=>$('#tq-chart-legends li').removeClass(styles.active)} options={options_set} data={data_set} width={400} height={400} />
                 </div>
               </Col>
               <Col xl="4" lg="6">

@@ -14,7 +14,7 @@ export default function ProfileModal({ showModal, data, onDismiss }: ProfileModa
         <Modal.Body>
             {/* <img src="/images/help.png" alt="" /> */}
             <Row className="align-items-start">
-                <Col md="6">
+                <Col lg="6">
                     <div className={`${styles.team_popup_photo} pe-md-3`}>
                         <img src={data?.avatar} alt="team" />
                         <ul className={`${styles.team_popup_social} mt-3`}>
@@ -22,7 +22,7 @@ export default function ProfileModal({ showModal, data, onDismiss }: ProfileModa
                         </ul>
                     </div>
                 </Col>
-                <Col md="6">
+                <Col lg="6">
                     <div className={`${styles.team_popup_info}`}>
                         <h3 className={`${styles.team_popup_name}`}>{data?.fullName}</h3>
                         <div className={styles.team_popup_position}>{data?.jobTitle}</div>

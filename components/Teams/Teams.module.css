@@ -233,6 +233,9 @@
     .tq_teams {
         padding: 50px 0;
     }
+    .team_popup_social {
+        margin-bottom: 0px;
+    }
 }
 
 @media(max-width:767px) {

@@ -1,0 +1,20 @@
+.tq_scroll_to_top {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    bottom: 20px;
+    right: 20px;
+}
+
+.tq_scroll_to_top a {
+    padding: 6px 14px !important;
+    clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 15px 100%, 0 calc(100% - 15px))
+}
+
+.tq_scroll_to_top a::before {
+    right: -18px;
+}
+
+.tq_scroll_to_top a::after {
+    left: -18px;
+}

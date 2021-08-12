@@ -1,0 +1,196 @@
+.tq_tokens {
+    padding: 140px 0 80px 0;
+}
+
+.tq_tokens_title {
+    padding: 0 0 0 45px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tq_tokens_title h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #fff;
+}
+
+.tq_tokens_sub_title {
+    position: absolute;
+    bottom: -4px;
+    left: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    color: #fff;
+    transform: rotate( -90deg) translateX(0)!important;
+    transform-origin: left center;
+}
+
+.tq_tokens_sub_title span {
+    color: #6b54b6;
+}
+
+.tq_tokens_body {
+    padding-top: 80px;
+}
+
+.chart_data {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    padding: 0;
+}
+
+.chart_data li {
+    padding: 10px;
+}
+
+.chart_data_item {
+    position: relative;
+    padding: 15px 25px;
+    background-color: #21144820;
+}
+
+.chart_data_item:before,
+.chart_data_item:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    height: 100%;
+    width: 45px;
+    border: 2px solid #251444;
+    transition: all .4s;
+}
+
+.chart_data_item:before {
+    left: 0;
+    border-radius: 6px 0 0 6px;
+    border-right: none;
+}
+
+.chart_data_item:after {
+    right: 0;
+    border-radius: 0 6px 6px 0;
+    border-left: none;
+}
+
+.chart_label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    transition: all .4s;
+}
+
+.chart_info {
+    display: block;
+}
+
+.chart_percent {
+    font-size: 22px;
+    color: #fff;
+}
+
+.chart_sublabel {
+    font-size: 13px;
+    color: #8ca2e5;
+    margin-left: 8px;
+}
+
+.active .chart_data_item:before,
+.active .chart_data_item:after {
+    border-color: #ff3549;
+}
+
+.active .chart_label {
+    color: #ff3549;
+}
+
+
+/*  */
+
+.token_info_item {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+
+.token_info_item:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    content: '';
+    border-radius: 2px;
+    background: #251444;
+    transition: all ease-in-out .3s;
+}
+
+.token_info_item:hover::before {
+    background: #ff3549;
+}
+
+.token_info_title {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.token_info_des {
+    color: #fff;
+    font-weight: bold;
+}
+
+@media (min-width: 576px) {
+    .chart_label,
+    .chart_percent {
+        font-size: 18px;
+    }
+    .token_info_title {
+        font-size: 0.88rem;
+        letter-spacing: 0.1em;
+    }
+    .token_info_des {
+        font-size: 1.375rem;
+    }
+}
+
+@media(max-width:1024px) {
+    .tq_tokens_title h1 {
+        font-size: 58px;
+    }
+    .tq_tokens_sub_title {
+        letter-spacing: .1em;
+        font-size: 12px;
+        bottom: -6px;
+    }
+}
+
+@media(max-width:992px) {
+    .tq_tokens {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width:767px) {
+    .tq_tokens_title {
+        padding-left: 30px;
+    }
+    .tq_tokens_sub_title {
+        left: 12px;
+        bottom: 0;
+    }
+    .tq_tokens_title h1 {
+        font-size: 42px;
+    }
+    .tq_tokens_sub_title {
+        letter-spacing: .15em;
+        font-size: 9px;
+        bottom: -6px;
+    }
+}

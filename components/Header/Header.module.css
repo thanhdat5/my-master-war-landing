@@ -1,0 +1,24 @@
+.tq_header {
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+    padding-top: 138px;
+    background-image: url('/images/banner1-bg.png');
+    background-position: bottom center;
+    /* background-image: url('/images/banner4-bg.png');
+    background-position: bottom center; */
+    position: relative;
+}
+
+@media(max-width:1199px) {
+    .tq_header {
+        height: 800px;
+    }
+}
+
+@media(max-width:992px) {
+    .tq_header {
+        height: 720px;
+        padding-top: 98px;
+    }
+}

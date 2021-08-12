@@ -1,0 +1,31 @@
+.tq_get_free_MAT {
+    padding: 80px 0 120px 0;
+}
+
+.tq_get_free_MAT h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+@media(max-width:1200px) {
+    .tq_get_free_MAT h1 {
+        font-size: 60px;
+    }
+}
+
+@media(max-width:1024px) {
+    .tq_get_free_MAT h1 {
+        font-size: 48px;
+    }
+}
+
+@media(max-width:767px) {
+    .tq_get_free_MAT {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .tq_get_free_MAT h1 {
+        font-size: 38px;
+    }
+}

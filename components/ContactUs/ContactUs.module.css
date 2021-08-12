@@ -1,0 +1,53 @@
+.tq_contact {
+    padding: 140px 0 80px 0;
+}
+
+.tq_contact_title {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.tq_contact_title h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1;
+    color: #fff;
+}
+
+.tq_contact_title p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.tq_contact_body {
+    padding-top: 80px;
+}
+
+@media(max-width:992px) {
+    .tq_contact {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width:767px) {
+    .tq_contact {
+        padding: 50px 0;
+    }
+    .tq_contact_title {
+        padding-right: 30px;
+    }
+    .tq_contact_sub_title {
+        right: 12px;
+        bottom: 0;
+    }
+    .tq_contact_title h1 {
+        font-size: 42px;
+    }
+    .tq_contact_sub_title {
+        bottom: -5px;
+        letter-spacing: .1em;
+        font-size: 8px;
+    }
+}

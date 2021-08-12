@@ -289,7 +289,6 @@ a {
 
 .tq_modal .modal-body {
     padding: 40px;
-    border: 2px #6b54b6 solid;
     border-radius: 0 20px 0 20px;
     box-shadow: 5px 0 24px rgb(0 0 0 / 20%);
     background-color: #21144870;
@@ -298,6 +297,30 @@ a {
     color: #d2d2d2;
     font-weight: 500;
     line-height: 1.8;
+    position: relative;
+}
+
+.tq_modal .modal-body::before,
+.tq_modal .modal-body::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    height: 100%;
+    width: 45px;
+    border: 2px solid #6b54b6ab;
+    transition: all .4s;
+}
+
+.tq_modal .modal-body::before {
+    left: 0;
+    border-radius: 6px 0 0 6px;
+    border-right: none;
+}
+
+.tq_modal .modal-body::after {
+    right: 0;
+    border-radius: 0 6px 6px 0;
+    border-left: none;
 }
 
 .tq_modal .modal-body>img {

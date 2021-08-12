@@ -19,6 +19,10 @@ export default function Home() {
         <title>My Master War - Three Kingdoms NFT Game</title>
         <meta name="description" content="The Three Kingdoms game is a quite famous game in the world, especially in China and Asian countries" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="og:title" property="og:title" content="My Master War - Three Kingdoms NFT Game" />
+        <meta name="twitter:card" content="My Master War - Three Kingdoms NFT Game" />
+        <meta property="og:image" content="/images/logo.png" />
+        <link rel="apple-touch-icon" href="/images/logo.png" />
       </Head>
 
       <HeaderComponent />

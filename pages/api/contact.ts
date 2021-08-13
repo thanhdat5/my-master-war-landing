@@ -18,9 +18,9 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         to: 'mymasterwar.mat@gmail.com',
         from: email,
         subject: "[My Master War] - " + subject,
-        name,
-        text: message,
-        html: message,
+        name: name,
+        text: `Fullname: ${name} ------ Email Address: ${email} ------ Message: ${message}`,
+        html: `<div>Fullname: ${name}<br/>Email Address: ${email}<br/>Message: ${message}</div>`,
     };
 
     try {

@@ -37,6 +37,7 @@ export function ContactUsComponent() {
                 "headers": { "content-type": "application/json" },
                 "body": JSON.stringify(data)
             })
+            debugger
             if (rs.status === 200) {
                 toast.success(MESSAGES.SEND_CONTACT_SUCCESS);
                 setName('');

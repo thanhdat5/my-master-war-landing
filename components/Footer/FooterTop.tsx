@@ -9,7 +9,7 @@ export default function FooterTopComponent() {
                     <Row className="align-items-center">
                         <Col xl="3" className="text-center text-xl-start">
                             <a href="#">
-                                <img alt="Logo" src="/images/logo.png" />
+                                <img alt="Logo" src="/images/logo.png" style={{ maxWidth: '100%' }} />
                             </a>
                         </Col>
                         <Col xl="6" className="text-center mt-3 mt-xl-0">
@@ -43,7 +43,7 @@ export default function FooterTopComponent() {
                                         <a className="nav-link" href="#teams">Our Teams</a>
                                     </Link>
                                 </Nav.Item>
-                                
+
                                 <Nav.Item>
                                     <Link href="#partner">
                                         <a className="nav-link" href="#partner">Partner</a>

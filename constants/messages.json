@@ -1,0 +1,4 @@
+{
+    "SEND_CONTACT_SUCCESS": "Thank you for your message. It has been sent.",
+    "SEND_CONTACT_FAILED": "There was an error trying to send your message. Please try again later."
+}

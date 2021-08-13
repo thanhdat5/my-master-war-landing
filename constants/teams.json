@@ -1,28 +1,28 @@
 [{
         "fullName": "Dominic Nguyen",
         "jobTitle": "Co-Founder/ CEO",
-        "avatar": "/images/teams/t1.png",
+        "avatar": "https://mydefipet.com/_nuxt/img/Team8.dde2369.png",
         "linkedin": "https://www.linkedin.com/in/dominicnguyennn/",
         "description": "<p>5 years of work experience in Mobile VAS, Gaming and Music industry with leadership and management skills.</p><p>7 Years’ experience as hands on software engineer in Japan environment (Mobile, Mobile application, Enterprise Application, E-Commerce).</p>"
     },
     {
         "fullName": "Quan Tran",
         "jobTitle": "CTO Blockchain",
-        "avatar": "/images/teams/t2.png",
+        "avatar": "https://mydefipet.com/_nuxt/img/Team8.dde2369.png",
         "linkedin": "https://www.linkedin.com/in/quan-thien-bao-tran-08401a124/",
         "description": "<p>Lead the engineering team and be responsible for technical strategy and engineering operations.</p><p>Master of computer science, Hanoi University of Technology, extensive experience in technical development and blockchain technology, NFT.</p><p>Fundamentals of Google Cloud Big Data and Machine Learning Certification</p>"
     },
     {
         "fullName": "Vo Nguyen",
         "jobTitle": "Chief Gaming Officer",
-        "avatar": "/images/teams/t3.png",
+        "avatar": "https://mydefipet.com/_nuxt/img/Team8.dde2369.png",
         "linkedin": "#",
         "description": "<p>Leader team Building and developing an online game server system in the Philippine market</p><p>Used to develop a system of online folk games such as chess, face-down chess, checkers, and portals including 20 online folk games.</p><p>Game products have reached the top 1 trending on google play</p>"
     },
     {
         "fullName": "Thanh Nguyen",
         "jobTitle": "Product Lead",
-        "avatar": "/images/teams/t4.png",
+        "avatar": "https://mydefipet.com/_nuxt/img/Team8.dde2369.png",
         "linkedin": "https://www.linkedin.com/in/vietthanh-dot-info/",
         "description": "<p>Project leader of mobile game products under BP Casual -soha game Vccoprt</p><p>Head of construction, sales of VAS services on games of TT media Viettel telecom</p><p>Scenario design manager for Game projects under Inet Corporation</p>"
     }

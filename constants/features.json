@@ -1,79 +1,57 @@
 [{
-        "name": "Collect",
-        "image": "/images/features/f1.jpg",
-        "description": "New monster is born every hour, and bidding lasts for 24 hours.",
+        "name": "Heroes",
+        "image": "/images/features/chientuong/chientuong1.png",
+        "description": "In order to become a lion-heart and unrivaled hero, you must go through hundreds of training and all the heaven challenge, pass thousands of life-and-death missions to training all your ability",
         "albums": [
-            "/images/features/f1.jpg",
-            "/images/features/f2.jpg",
-            "/images/features/f3.jpg",
-            "/images/features/f4.jpg",
-            "/images/features/f5.jpg",
-            "/images/features/f6.jpg"
+            "/images/features/chientuong/chientuong1.png",
+            "/images/features/chientuong/chientuong2.png"
         ]
     },
     {
-        "name": "BREED",
-        "image": "/images/features/f2.jpg",
-        "description": "You can create a new generation of monsters by breeding any two monsters.",
+        "name": "World Boss",
+        "image": "/images/features/bossTG/bossTG1.png",
+        "description": "Heaven montera are summonned to harm the world, the 12 vassals have to all gathered with the goal of defeating them and earning thier natural resources. Those monster with space essence contain a lot of valuable resources, destroying them can earn many unbelievable rewards",
         "albums": [
-            "/images/features/f2.jpg",
-            "/images/features/f1.jpg",
-            "/images/features/f3.jpg",
-            "/images/features/f4.jpg",
-            "/images/features/f5.jpg",
-            "/images/features/f6.jpg"
+            "/images/features/bossTG/bossTG1.png",
+            "/images/features/bossTG/bossTG2.png",
+            "/images/features/bossTG/bossTG3.png"
         ]
     },
     {
-        "name": "EVOLVE",
-        "image": "/images/features/f3.jpg",
-        "description": "A monster has many stages of evolution depending on the Rarity. Evolution ensures cool new appearance and enhanced stats.",
+        "name": "Strategy",
+        "image": "/images/features/tranphap/tranphap1.png",
+        "description": "Simulation of all kinds of strategies which bring themself power could destroy heaven and earth since ancient times. They are modified to match the types of troops to increase the maximum strength of them. For that reason, the strategies are always used by strategists to improve combat power of soldiers.",
         "albums": [
-            "/images/features/f3.jpg",
-            "/images/features/f1.jpg",
-            "/images/features/f2.jpg",
-            "/images/features/f4.jpg",
-            "/images/features/f5.jpg",
-            "/images/features/f6.jpg"
+            "/images/features/tranphap/tranphap1.png",
+            "/images/features/tranphap/tranphap2.png",
+            "/images/features/tranphap/tranphap3.png"
         ]
     },
     {
-        "name": "Season and Events",
-        "image": "/images/features/f4.jpg",
-        "description": "Collect and maxout Legendary monster to claim lucrative prizes.",
+        "name": "Tavern",
+        "image": "/images/features/anhhungtuulau/anhhungtuulau1.png",
+        "description": "Heroes of the world are scattered everywhere, only the tavern is the place where talented heroes gather to talk all stories about heaven and earth. Heroes are just ordinary people and will become ashes over time if they don't choose the right master. Who will be the hero in the history books, who will be forgotten in the history line. All of them will depend on your choice.",
         "albums": [
-            "/images/features/f4.jpg",
-            "/images/features/f1.jpg",
-            "/images/features/f2.jpg",
-            "/images/features/f3.jpg",
-            "/images/features/f5.jpg",
-            "/images/features/f6.jpg"
+            "/images/features/anhhungtuulau/anhhungtuulau1.png",
+            "/images/features/anhhungtuulau/anhhungtuulau2.png"
         ]
     },
     {
-        "name": "Battle",
-        "image": "/images/features/f5.jpg",
-        "description": "Unique battle mode in next seasons & Win ultra-rare rewards.",
+        "name": "Nation War",
+        "image": "/images/features/quocchien/quocchien1.png",
+        "description": "The dispute of the three forces has been going on for hundreds of years, the country is huge and thousands of miles away, but there are scenes of war and fire everywhere, people's lives are not peaceful for a day, and the cries resounded to the sky. Which force will extinguish the war and pacify the Jiangshan, who will be the son of heaven to unify the country and bring peace to the people.",
         "albums": [
-            "/images/features/f5.jpg",
-            "/images/features/f1.jpg",
-            "/images/features/f2.jpg",
-            "/images/features/f3.jpg",
-            "/images/features/f4.jpg",
-            "/images/features/f6.jpg"
+            "/images/features/quocchien/quocchien1.png",
+            "/images/features/quocchien/quocchien2.png"
         ]
     },
     {
-        "name": "Trading, Ranking & Social Features",
-        "image": "/images/features/f6.jpg",
-        "description": "<div>Trade on Market place to boost your collection</div><div>Compete with friends and other players</div><div>Show off your pet army</div><div>Socialise in private chat and world channel</div>",
+        "name": "Resources",
+        "image": "/images/features/tainguyen/tainguyen1.png",
+        "description": "Mineral ores lie thousands of meters deep in the ground, it is extremely difficult to discover and exploit, so mineral ores are extremely precious resources that all forces are always looking for and want to own. Each mineral ore mine produces an extremely large amount of resources, so when it is exploited, it will lead to extremely fierce disputes between the Forces. Whose has those amount of resources that person will be able to control the whole world.",
         "albums": [
-            "/images/features/f6.jpg",
-            "/images/features/f1.jpg",
-            "/images/features/f2.jpg",
-            "/images/features/f3.jpg",
-            "/images/features/f4.jpg",
-            "/images/features/f5.jpg"
+            "/images/features/tainguyen/tainguyen1.png",
+            "/images/features/tainguyen/tainguyen2.png"
         ]
     }
 ]

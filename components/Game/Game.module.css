@@ -126,13 +126,25 @@
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
 .tg_feature_description {
-    font-size: 18px;
-    text-align: left;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.feature_image_modal {
+    max-height: calc(100vh - 100px);
+    min-height: auto !important;
+}
+
+.feature_image_modal img {
+    width: auto !important;
+    max-width: 100%;
+    max-height: calc(100% - 70px) !important;
+    object-fit: cover !important;
 }
 
 @media(max-width:1024px) {

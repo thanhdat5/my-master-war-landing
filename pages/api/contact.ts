@@ -15,7 +15,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     });
 
     const msg = {
-        to: 'mymasterwar.mat@gmail.com',
+        to: 'dominic@mymasterwar.com',
         from: email,
         subject: "[My Master War] - " + subject,
         name: name,

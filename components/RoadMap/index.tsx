@@ -7,7 +7,7 @@ export function RoadMapComponent() {
                 <div className={styles.tq_road_map_title}>
                     <h1 className="wow fadeInUp">ROADMAP</h1>
                     <p className="fs-18 mb-0 wow fadeInUp">
-                        My Master War is developing a global data-driven platform for the world.<br />Powered by blockchain and smart contracts.
+                        Mymasterwar brings traditional game experiences, play to earn and Defi to NFT collectibles.
                     </p>
                 </div>
                 <div className={styles.tq_road_map_body}>
